@@ -1,7 +1,6 @@
 /************************
 * GENERAL
 ************************/
-
 body {
   margin: 0;
   background-color: #ddd;
@@ -48,7 +47,6 @@ section {
 /************************
 * NAVIGATION BAR
 ************************/
-
 nav {
   background-color: #333333;
   position: fixed;
@@ -79,7 +77,6 @@ nav li a {
 /************************
 * HERO SECTION
 ************************/
-
 .hero {
   background: url('http://www.elevationacademy.co/wp-content/uploads/2016/02/Tel-Aviv.jpg') no-repeat center fixed;
   background-size: cover;
@@ -102,7 +99,6 @@ nav li a {
 /************************
 * BEST RESTAURANT
 ************************/
-
 .column {
   float: left;
   width: 33.333%;
@@ -119,19 +115,16 @@ nav li a {
 /************************
 * BEST BARS
 ************************/
-
 .column-70 {
   width: 68%;
   float: left;
-  height: 500px;
   background-color: white;
-  margin-left: 2%;
-  overflow: hidden;
+  /* margin-left: 2%; */
+  margin: 1%;
 }
 
 .column-70 img {
   width: 100%;
-  height: 100%;
 }
 
 .column-70 h3 {
@@ -139,12 +132,12 @@ nav li a {
 }
 
 .column-30 {
-  width: 24%;
+  width: 26%;
   float: left;
-  height: auto;
   background-color: white;
-  margin: 0 1% 0 2%;
+  margin: 1%;
   padding: 1%;
+  line-height: 1.4em;
 }
 
 .column-30 h4 {
@@ -169,8 +162,7 @@ nav li a {
   }
   .column-30,
   .column-70 {
-    width: 95%;
-    margin: 2%;
+    width: 96%;
   }
   h3 {
     font-size: 14px;
