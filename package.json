@@ -1,0 +1,23 @@
+{
+  "name": "secret-tel-aviv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AiaRup/secret-tel-aviv.git"
+  },
+  "author": "Aia Rupsom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AiaRup/secret-tel-aviv/issues"
+  },
+  "homepage": "https://github.com/AiaRup/secret-tel-aviv#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
